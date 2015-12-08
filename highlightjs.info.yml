@@ -1,4 +1,4 @@
 name: HighlightJs
-description: A syntax highlighter using highlightjs
+description: A Drupal syntax highlighter using highlight.js
 type: module
 core: 8.x
