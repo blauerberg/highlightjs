@@ -1,0 +1,17 @@
+highlightjs.library:
+  remote: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0
+  version: 9.x
+  license:
+    name: MIT
+    url: https://github.com/isagalaev/highlight.js/blob/master/LICENSE
+    gpl-compatible: true
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/default.min.css: { type: external, minified: true }
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js: { type: external, minified: true }
+
+highlightjs.init:
+  version: 1.0
+  js:
+    js/highlightjsInit.js: {}

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ *
+ * A drupal module which adds syntax highlighting using the highlight.js library
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function highlightjs_preprocess_page(&$variables) {
+  /*
+   * @todo: This library buisness really should have the option of using a
+   * prepackaged build that is included with the module or using the cdn.
+   * Currently we just use the cdn since 1) I don't know the offical cdn info
+   * and I don't think I'm using the correct one. 2) It was quick and easy
+   * until I can understand how to swap libraries out
+   *
+   * Finally these libraries are called on every page. We can probably load
+   * these on demand once I can figure that out.
+   */
+  $variables['#attached']['library'][] = 'highlightjs/highlightjs.library';
+  $variables['#attached']['library'][] = 'highlightjs/highlightjs.init';
+}

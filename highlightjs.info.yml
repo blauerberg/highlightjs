@@ -1,0 +1,4 @@
+name: HighlightJs
+description: A syntax highlighter using highlightjs
+type: module
+core: 8.x
