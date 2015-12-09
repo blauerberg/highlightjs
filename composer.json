@@ -1,0 +1,15 @@
+{
+    "name": "taoti/highlightjs",
+    "description": "A drupal module to allow syntax highlighting of content.",
+    "type": "drupal-module",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Rich Allen",
+            "email": "rallen@taoti.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    }
+}
