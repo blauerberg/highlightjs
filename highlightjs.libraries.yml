@@ -1,5 +1,5 @@
 highlightjs.library:
-  remote: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0
+  remote: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0
   version: 9.x
   license:
     name: MIT
@@ -7,9 +7,9 @@ highlightjs.library:
     gpl-compatible: true
   css:
     theme:
-      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/default.min.css: { type: external, minified: true }
+      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css: { type: external, minified: true }
   js:
-    https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js: { type: external, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js: { type: external, minified: true }
 
 highlightjs.init:
   version: 1.0
